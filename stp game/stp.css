@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    
+    text-align: center;
+}
+h1{
+    
+    line-height: 4rem;
+    align-items: center;
+    background-color: #192655;
+    color: white;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    gap: 2rem;
+}
+img:hover{
+    opacity: 0.5;
+}
+.choices{
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+#message{
+    margin-top: 4rem;
+    font-size: 2rem;
+    
+}
